@@ -1,0 +1,9 @@
+modules = ["python-3.12"]
+run = "python undefined"
+
+[nix]
+channel = "stable-24_05"
+packages = ["cargo", "freetype", "glibcLocales", "gmp", "lcms2", "libGL", "libGLU", "libiconv", "libimagequant", "libjpeg", "libtiff", "libwebp", "libxcrypt", "openjpeg", "openssl", "pkg-config", "rustc", "tcl", "tk", "zlib"]
+
+[deployment]
+run = ["sh", "-c", "python undefined"]
